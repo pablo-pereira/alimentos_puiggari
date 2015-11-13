@@ -28,6 +28,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Unicorn as the app server
 # gem 'unicorn'
+gem "passenger"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -45,8 +46,6 @@ group :development do
   gem 'spring'
 end
 
-gem 'git-deploy'
-
 
 gem 'spree' #, github: 'spree/spree' #, branch: '3-0-stable'
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
+gem 'spree_auth_devise', git: 'https://github.com/spree/spree_auth_devise.git', branch: '3-0-stable'
