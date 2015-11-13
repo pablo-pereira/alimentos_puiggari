@@ -1,5 +1,7 @@
 == README
 
+Configure spree_auth_devise whit https://github.com/spree/spree_auth_devise
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
