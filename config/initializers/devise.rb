@@ -9,4 +9,3 @@ Devise.setup do |config|
 
   # Add any other devise configurations here, as they will override the defaults provided by spree_auth_devise.
 end
->>>>>>> develop
