@@ -45,8 +45,6 @@ coverage/*
 var
 TAGS
 nbproject
-./vendor
-/vendor
 
 tags
 *.swp
