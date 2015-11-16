@@ -1,0 +1,7 @@
+  #spree-header {
+    background: #1c5c92 url(/assets/header.jpg) center center;
+    background-size: cover;
+    margin-bottom: $line-height-computed;
+  }
+
+    
