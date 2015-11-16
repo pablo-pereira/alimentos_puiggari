@@ -1376,3 +1376,8 @@ es:
   date:
     formats:
       default: "%d-%m-%Y %H:%M:%S"
+  time:
+     formats:
+       default: "%Y/%m/%d"
+       short: "%b %d"
+       long: "%B %d, %Y"

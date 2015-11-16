@@ -4,6 +4,9 @@ Configure spree https://github.com/spree/spree
 Configure spree_auth_devise whit https://github.com/spree/spree_auth_devise
 run bundle exec rake spree_auth:admin:create
 
+Config https://github.com/spree-contrib/spree_reviews
+run bundle exec rails g spree_reviews:install
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

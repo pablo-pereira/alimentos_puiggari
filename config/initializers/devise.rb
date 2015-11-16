@@ -1,2 +1,12 @@
-Devise.secret_key = "d07f6451407e24629783505ce75c770a0d760bb1ec474ac14d1a9256ada000adf73989060cd5f0be82ee3b10afff641a3dfe093b56891869a9b8774f975bf6a5"
+Devise.secret_key = "492a8cfe8d7d3f5fa2a9b9fa2aedc239a8016f265474f54cddfd69d8b44321d7df4c8af5899de6d30148093bdc5d1736aa74"
 
+Devise.setup do |config|
+  # Required so users don't lose their carts when they need to confirm.
+  config.allow_unconfirmed_access_for = 1.days
+
+  # Fixes the bug where Confirmation errors result in a broken page.
+  config.router_name = :spree
+
+  # Add any other devise configurations here, as they will override the defaults provided by spree_auth_devise.
+end
+>>>>>>> develop
