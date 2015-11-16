@@ -9,5 +9,3 @@
 //= require spree/backend
 
 //= require_tree .
-
-//= require backend/spree_bank_transfer
