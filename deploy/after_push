@@ -13,13 +13,11 @@ umask 002
 
 git submodule init && git submodule sync && git submodule update
 
-##added
 export GEM_HOME=/home/web/.rvm/gems/ruby-2.2.1@alimentos_puiggari
 export MY_RUBY_HOME=/home/web/.rvm/rubies/ruby-2.2.1
 export GEM_PATH=/home/web/.rvm/gems/ruby-2.2.1@alimentos_puiggari:/home/web/.rvm/gems/ruby-2.2.1@global
 export RUBY_VERSION=ruby-2.2.1
 export PATH=/home/web/.rvm/gems/ruby-2.2.1@alimentos_puiggari/bin:/home/web/.rvm/gems/ruby-2.2.1@global/bin:/home/web/.rvm/rubies/ruby-2.2.1/bin:/home/web/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
-##
 
 run deploy/before_restart
 run deploy/restart && run deploy/after_restart

@@ -1,4 +1,5 @@
 #!/home/web/.rvm/rubies/ruby-2.2.1/bin/ruby
+
 oldrev, newrev = ARGV
 
 def run(cmd)
@@ -9,7 +10,6 @@ RAILS_ENV   = ENV['RAILS_ENV'] || 'production'
 use_bundler = File.file? 'Gemfile'
 rake_cmd    = use_bundler ? 'bundle exec rake' : 'rake'
 
-if use_bundler
   bundler_args = []
   BUNDLE_WITHOUT = ENV['BUNDLE_WITHOUT'] || 'development:test'
   bundler_args << '--without' << BUNDLE_WITHOUT unless BUNDLE_WITHOUT.empty?
