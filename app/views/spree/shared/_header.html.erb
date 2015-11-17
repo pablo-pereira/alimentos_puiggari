@@ -1,0 +1,15 @@
+<div id="spree-header" style="background: #1c5c92 url(/assets/header.jpg) center center;">
+  <header id="header" data-hook>
+    <div class="container">
+      <div class="row">
+        <figure id="logo" class="col-md-4" data-hook>
+          <%= image_tag('logo/spree_50.png')  %>          
+        </figure>
+        <%= render :partial => 'spree/shared/nav_bar' %>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
+  </div>
+</div>
