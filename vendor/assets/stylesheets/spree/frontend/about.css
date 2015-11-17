@@ -1,4 +1,32 @@
-#about-us{
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Open Sans', 'Arial', 'sans-serif'
+}
+
+#about-us p{
+	font-size: larger;
 	/*margin-left: 3%;*/
+}
+
+#footer {
+    background-color: #A8B768;
+    bottom: 0;
+    margin-bottom: 0;
+    border-width: 1px 0 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+#footer-cont {
+	padding-left: 10%;
+	padding-right: 10%;
+    padding-top: 1%;
+}
+
+#content {
+	margin-bottom: 10%;
 }
 
