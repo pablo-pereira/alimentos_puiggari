@@ -52,5 +52,6 @@ gem 'spree' #, github: 'spree/spree' #, branch: '3-0-stable'
 gem 'spree_auth_devise', git: 'https://github.com/spree/spree_auth_devise.git', branch: '3-0-stable'
 gem 'spree_mail_settings', git: 'https://github.com/spree-contrib/spree_mail_settings.git', branch: '3-0-stable'
 gem 'spree_reviews', git: 'https://github.com/spree-contrib/spree_reviews.git', branch: '3-0-stable'
+gem "spree_product_zoom", :git => "git://github.com/spree/spree_product_zoom.git", branch: '3-0-stable'
 
 
